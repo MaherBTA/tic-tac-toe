@@ -1,24 +1,23 @@
-# Reverse Shell
-Node.js reverse shell using socket.io & readcommand
+# Tic-Tac-Toe Game
+Tic-Tac-Toe game using Node.js socket.io & readcommand
 
 ## Requirements
 7.0.0 <= Node.js <br>
 0.3.0 <= readcommand <br>
 2.0.1 <= socket.io <br>
 2.0.1 <= socket.io-client <br>
-0.0.1 <= fs <br>
-0.0.0 <= http
+
 ## Install
 ```bash
-$ git clone https://github.com/MaherBTA/reverse-shell
-$ cd reverse-shell
+$ git clone https://github.com/MaherBTA/tic-tac-toe
+$ cd tic-tac-toe
 $ npm install
 ```
 
 ## Run
 ```bash
-$ node server.js
-open browser http://localhost:80
+$ sudo node server.js 5050
+$ sudo node client.js 127.0.0.1 5050
 ```
 
 ## References

@@ -1,14 +1,6 @@
 // Default Config
 {
-    "ServerConfig": {
-      "host": "localhost",
-      "port": 80,
-      "https": true,
-    },
-    "dbConfig": {
-      "host": "localhost",
-      "port": 5984,
-      "dbName": "customers",
-      "dbPass": "customers"
+    "Config": {
+      "maxPlayers": 10
     }
 }
