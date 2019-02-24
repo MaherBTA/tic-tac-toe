@@ -71,7 +71,6 @@ socket.on('GE', function(data) {
 
 // print boeard
 function printBoard(board) {
- // no need for loops overkill 
  //var i;
  //var j;
  //for (i = 0; i < 3; i++) {
